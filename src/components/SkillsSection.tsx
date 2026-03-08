@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const skillGroups = [
   {
     category: "RPA & Automation",
-    skills: ["UiPath Studio", "UiPath Orchestrator", "Process Mining"],
+    skills: ["UiPath Studio", "UiPath Orchestrator", "Databricks"],
   },
   {
     category: "Programming",
