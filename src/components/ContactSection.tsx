@@ -17,7 +17,9 @@ const ContactSection = () => {
           </p>
 
           <a
-            href="mailto:mudit@example.com"
+            href="https://www.linkedin.com/in/mudit9821/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-bold text-lg hover:opacity-90 transition-opacity glow-primary mb-10"
           >
             <Send className="w-5 h-5" />
@@ -25,13 +27,13 @@ const ContactSection = () => {
           </a>
 
           <div className="flex justify-center gap-6 mt-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub">
+            <a href="https://github.com/Muditxofficial" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub">
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/mudit9821/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:mudit@example.com" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
+            <a href="mailto:muditchoudhary4@gmail.com" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
               <Mail className="w-6 h-6" />
             </a>
           </div>
