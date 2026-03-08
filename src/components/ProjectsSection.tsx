@@ -14,6 +14,12 @@ const projects = [
     description: "AI-powered agent that analyzes trends and suggests video creation ideas for YouTube creators, integrating UiPath automation with GPT models and YouTube add-ons.",
     tags: ["UiPath", "YouTube Add-on", "GPT Model"],
   },
+  {
+    icon: Code2,
+    title: "Reddit Data Pipeline Engineering",
+    description: "A comprehensive ETL solution for Reddit data, using Apache Airflow, Celery, PostgreSQL, Amazon S3, AWS Glue, Amazon Athena, and Amazon Redshift to extract, transform, and load data into a Redshift data warehouse.",
+    tags: ["Airflow", "Celery", "PostgreSQL", "S3", "AWS Glue", "Athena", "Redshift"],
+  },
 ];
 
 const ProjectsSection = () => {
