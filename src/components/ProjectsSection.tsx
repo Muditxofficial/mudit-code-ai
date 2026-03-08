@@ -4,21 +4,15 @@ import { ExternalLink, Bot, Workflow, Code2 } from "lucide-react";
 const projects = [
   {
     icon: Workflow,
-    title: "Enterprise RPA Suite",
-    description: "End-to-end automation of invoice processing, reducing manual effort by 85% using UiPath and custom Python integrations.",
-    tags: ["UiPath", "Python", "OCR"],
+    title: "Insurance Bot Claim",
+    description: "Automated insurance claim processing bot leveraging HyperScience for intelligent document extraction, UiPath for orchestration, and ReFramework for robust error handling and scalability.",
+    tags: ["HyperScience", "UiPath", "Excel", "Email", "ReFramework"],
   },
   {
     icon: Bot,
-    title: "AI Research Agent",
-    description: "Autonomous agent that researches topics, synthesizes information, and generates structured reports using LLM orchestration.",
-    tags: ["LangChain", "Python", "GPT-4"],
-  },
-  {
-    icon: Code2,
-    title: "Process Mining Dashboard",
-    description: "Real-time analytics dashboard for monitoring RPA bot performance, identifying bottlenecks, and optimizing workflows.",
-    tags: ["Python", "React", "Data Viz"],
+    title: "Agentic AI YouTube Video Creator Suggestor",
+    description: "AI-powered agent that analyzes trends and suggests video creation ideas for YouTube creators, integrating UiPath automation with GPT models and YouTube add-ons.",
+    tags: ["UiPath", "YouTube Add-on", "GPT Model"],
   },
 ];
 
